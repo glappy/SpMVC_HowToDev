@@ -1,0 +1,8 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<meta charset="utf-8">
+	<header>
+		<div id="d1"><a href="/dev">HowToDev</a></div>
+		<div id="d2">입문개발자들을 위한 툴 가이드</div>
+	</header>

@@ -1,0 +1,152 @@
+@charset "UTF-8";
+	
+	section{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	section article{
+		margin:20px;
+	}
+	.boxs{
+		position: relative;
+	}.boxs img{
+		width: 360px;
+		height: 600px;
+		border-radius:4px;
+	
+	}
+	.boxs form{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 360px;
+		height: 600px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}#banner #text1{		
+		text-align: center;
+		font-size: 30pt;
+		font-weight: 900;
+		color:#FE9A2E;
+		font-family: 'Indie Flower', cursive;
+		transition-duration: 0.5s;
+	}#banner #text2{
+		text-align: center;
+		font-size: 16pt;
+		font-weight:900;
+		color:white;
+		font-family: 'Sunflower', sans-serif;
+		transition-duration: 0.5s;
+	}
+	#banner #text1:hover{
+		display:inline-block;
+		color:#F79F81;
+		font-size:32pt;
+	}
+	#banner #text2:hover{
+		color:gray;
+		font-size:18pt;
+	}
+	
+	.same1{
+		position: absolute;
+		top:230px;
+
+		font-family: 'Staatliches', cursive;
+		font-size: 55pt;
+		font-weight: 900;
+		color:white;
+	}.same2{
+		position: absolute;
+		text-align: center;
+		top:305px;
+
+		font-family: 'Sunflower', sans-serif;
+		font-size: 16pt;
+		font-weight: 900;
+		color:white;
+	}
+	select{
+		position: absolute;
+		top:370px;
+		width: 70%;
+		height: 9%;
+		border: 6px solid #58ACFA;
+		border-radius: 3px;
+		margin:5px;
+	}input{
+		position: absolute;
+		top:440px;
+		width: 70%;
+		height: 9%;
+		border: 6px solid #58ACFA;
+		border-radius: 3px;
+		margin:5px;
+	}
+	#codebox button{
+		position: absolute;
+		top:520px;
+		width: 55%;
+		height: 8%;
+		font-size: 14pt;
+		font-family: 'Sunflower', sans-serif;
+		font-weight: 900;
+		color:white;
+		background-color: #58ACFA;
+		border: 0px solid;
+		border-radius: 3px;
+		transition-duration: 0.5s;
+
+	}
+	#codebox button:hover{
+		background-color: #2E9AFE;
+		width:58%;
+		height: 9%;
+		font-size:18pt;
+		cursor:pointer
+	}
+	#guidebox button{
+		position: absolute;
+		top:520px;
+		width: 55%;
+		height: 8%;
+		font-size: 14pt;
+		font-family: 'Sunflower', sans-serif;
+		font-weight: 900;
+		color:white;
+		background-color: #EB6464;
+		border: 0px solid;
+		border-radius: 3px;
+		transition-duration: 0.5s;
+	}
+	#guidebox button:hover{
+		background-color: #FA5858;
+		width:58%;
+		height: 9%;
+		font-size:18pt;
+		cursor:pointer
+	}
+	#toolbox button{
+		position: absolute;
+		top:520px;
+		width: 55%;
+		height: 8%;
+		font-size: 14pt;
+		font-family: 'Sunflower', sans-serif;
+		font-weight: 900;
+		color:white;
+		background-color: #FE9A2E;
+		border: 0px solid;
+		border-radius: 3px;
+		transition-duration: 0.5s;
+	}
+	#toolbox button:hover{
+		background-color: #FF8000;
+		width:58%;
+		height: 9%;
+		font-size:18pt;
+		cursor:pointer
+	}
